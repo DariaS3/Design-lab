@@ -1,0 +1,290 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+	padding: 0px;
+}
+body{
+	background-color:blue;
+	min-height:100vh;
+}
+#my-svg{
+	display:none;
+}
+
+#shape-icon-1 .cls-1,
+#shape-icon-1 .cls-2 {
+	fill: none;
+	stroke-width: 2px;
+}
+
+#shape-icon-1 .cls-1,
+#shape-icon-1 .cls-2 {
+	stroke: #fff;
+}
+
+#shape-icon-1 .cls-1,
+#shape-icon-1 .cls-2,
+#shape-icon-1 .cls-3 {
+	fill-rule: evenodd;
+}
+
+
+#shape-icon-1 .cls-3,
+#shape-icon-1 .cls-4 {
+	fill: #fff;
+}
+body{
+    background-color: white;
+    font-family: 'Lato', Arial, sans-serif;
+    min-height:100vh;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: ;
+    width: 1920px;
+    height: 1072px;
+    background: url("img/hero-bg.jpg") no-repeat;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-family: 'Lato', Arial, sans-serif;
+    text-align: center;
+}
+.white-logo {
+	padding-bottom: 90px;
+}
+.title {
+	font-size: 54px;
+	font-weight: bold;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: 8.6px;
+	color: #ffffff;
+	flex-basis: 600px;
+	padding-bottom: 50px;
+	white-space: pre-line;
+
+}
+.title-description {
+	font-size: 15px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.93;
+	letter-spacing: 0.9px;
+	color: #ffffff;
+	width: 600px;
+	padding-bottom: 245px;
+}
+section {
+	font-family: 'Loto', Arial, sans-serif;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.About {
+	background-color: #fff;
+	height: 631px;
+	width: 1920px;
+}
+.section-title {
+	/*flex: 1;*/
+	font-size: 34px;
+	font-weight: bold;
+	font-style: normal;
+	text-transform: uppercase;
+	line-height: normal;
+	letter-spacing: 5.4px;
+	color: #3c3c3c;
+	margin-bottom: -18px;
+}
+.section-description {
+	padding-top: 64px;
+	padding-left: 170px;
+	padding-right: 170px;
+	font-size: 16px;
+	font-weight: 300;
+	font-style: normal;
+	line-height: 1.5;
+	letter-spacing: normal;
+	white-space: pre-line;
+	text-align: center;
+	color: #3c3c3c;
+	height:312px;
+	width:902px;
+	background-image: linear-gradient(to right, #333 25%, transparent 25% , transparent 50%,  #333 50%, #333 100%) ,
+	                   linear-gradient(to right, #333 100%, #333 100%),
+	                   linear-gradient(to bottom,  #333 100%, #333 100%),
+	                   linear-gradient(to bottom,  #333 100%, #333 100%);
+	background-position: left top, left bottom, left top, right top;
+	background-size: 1200px 2px, 1200px 2px,2px 1200px, 2px 1200px;
+	background-repeat:  repeat-x, repeat-x, repeat-y, repeat-y;
+}
+.Services {
+	background-image: url('img/services.jpg');
+	background-repeat: no-repeat;
+	height: 488px;
+	width: 1920px;
+	color: #fff;
+}
+.Services .section-title {
+	color: #fff;
+}
+.Services .section-description {
+	color: #fff;
+	height: 251px;
+	background-image: linear-gradient(to right, #fff 25%, transparent 25% , transparent 50%,  #fff 50%, #fff 100%) ,
+	                   linear-gradient(to right, #fff 100%, #fff 100%),
+	                   linear-gradient(to bottom,  #fff 100%, #fff 100%),
+	                   linear-gradient(to bottom,  #fff 100%, #fff 100%);
+	background-position: left top, left bottom, left top, right top;
+	background-size: 1200px 2px, 1200px 2px,2px 1200px, 2px 1200px;
+	background-repeat:  repeat-x, repeat-x, repeat-y, repeat-y;
+}
+.What {
+	height: 1415px;
+	width: 1920px;
+}
+.What .section-description {
+	height: 1182px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.option-title {
+	font-size: 20px;
+	font-weight: bold;
+	font-style: normal;
+	text-transform: uppercase;
+	line-height: normal;
+	letter-spacing: 3.2px;
+	text-align: center;
+	color: #3c3c3c;
+}
+/*Grid block*/
+.grid {
+	width: 1920px;
+	height: 484px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: space-between;
+	align-content: space-between;
+	font-size: 34px;
+	font-weight: bold;
+	font-style: normal;
+	text-transform: uppercase;
+	line-height: normal;
+	letter-spacing: 5.4px;
+	color: #ffffff;
+}
+.aside {
+	flex-basis: 25%;
+	height: 237px;
+}
+.middle {
+	flex-basis: calc(50% - 20px);
+	height: 237px;
+}
+.grid p {
+	padding-left: 46px;
+	padding-top: 160px;
+}
+.grid div:nth-child(1){
+	background-image: url(img/2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.grid div:nth-child(2){
+	background-image: url(img/6.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.grid div:nth-child(3){
+	background-image: url(img/4.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.grid div:nth-child(4){
+	background-image: url(img/5.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.grid div:nth-child(5){
+	background-image: url(img/1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.grid div:nth-child(6){
+	background-image: url(img/3.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.Contact {
+	height: 490px;
+	width: 1920px;
+}
+.Contact .section-description {
+	height: 293px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+button {
+	width: 395px;
+	height: 58px;
+	border: none;
+	background-color: #3c3c3c;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: normal;
+	text-transform: uppercase;
+	letter-spacing: 2.6px;
+	text-align: center;
+	color: #ffffff;
+}
+footer {
+	width: 1920px;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #3c3c3c;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/* Footer icon*/
+footer svg {
+	margin-right: 36px;
+	width: 35px;
+	height: 35px;
+	stroke: #3c3c3c;
+}
+footer .icon{
+	stroke: #3c3c3c;
+}
+
+#footer-icon .cls-1,
+#footer-icon .cls-2 {
+	stroke: #3c3c3c;
+	fill: none;
+}
+
+#footer-icon .cls-1,
+#footer-icon .cls-2,
+#footer-icon .cls-3 {
+	fill-rule: evenodd;
+}
+
+
+#footer-icon .cls-3,
+#footer-icon .cls-4 {
+	fill: #3c3c3c;
+}
